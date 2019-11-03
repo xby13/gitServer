@@ -1,0 +1,19 @@
+#navi {
+    border-bottom: 2px solid red;
+}
+#columns ol{
+    padding-left:30px;				
+}
+#columns #contents{
+    padding-left:15px;				
+}
+@media(min-width:700px){ 
+    #columns {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }    
+    #navi{
+        border-right: 2px solid blue;
+        border-bottom: none;
+    }
+}
